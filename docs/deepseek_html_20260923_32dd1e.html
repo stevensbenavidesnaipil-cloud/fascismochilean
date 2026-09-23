@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matanza del Seguro Obrero (1938)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background-color: #111;
+      color: #eee;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    .slide {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    .slide:last-child {
+      border-bottom: none;
+    }
+    h1 {
+      font-size: 2.8rem;
+      color: #e63946;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #f4a261;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #f4a261;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      max-width: 800px;
+      font-size: 1.15rem;
+      margin-bottom: 1.2rem;
+      color: #ddd;
+    }
+    .subtitle {
+      font-size: 1.3rem;
+      color: #aaa;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    .img-container {
+      margin: 1.5rem 0;
+      max-width: 650px;
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    }
+    .img-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: grayscale(80%) contrast(1.1);
+      transition: filter 0.4s ease;
+    }
+    .img-container img:hover {
+      filter: grayscale(0%) contrast(1);
+    }
+    .caption {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.4rem;
+      font-style: italic;
+    }
+    .highlight {
+      color: #e63946;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Portada -->
+  <section class="slide">
+    <img src="images/0.png" alt="bandera nacionalista chilena-seguro obrer">
+    <h1>Matanza del Seguro Obrero</h1>
+    <p class="subtitle">5 de septiembre de 1938 — Santiago de Chile</p>
+    <p>El trágico desenlace del <span class="highlight">Movimiento Nacionalista</span> chileno.</p>
+  </section>
+
+  <!-- Sección 1 -->
+  <section class="slide">
+    <h2>1. El Movimiento Nacionalista</h2>
+    <div class="img-container">
+      <img src="images/3.png" alt="Jorge González von Marées y el MNSCH">
+    </div>
+    <p class="caption">Jorge González von Marées, líder del Movimiento Nacional Socialista (MNSCH).</p>
+    <p>Fundado en 1932 por <span class="highlight">Jorge González von Marées</span>, el MNSCH se inspiraba en el fascismo europeo. Con un discurso nacionalista, anticomunista y corporativista, apoyó la candidatura de <span class="highlight">Carlos Ibáñez del Campo</span> para las elecciones de 1938.</p>
+  </section>
+
+  <!-- Sección 2 -->
+  <section class="slide">
+    <h2>2. La Toma y la Masacre</h2>
+    <div class="img-container">
+      <img src="images/2.png" alt="Toma del Seguro Obrero">
+    </div>
+    <p class="caption">Fuerzas armadas y de orden durante la toma del edificio del Seguro Obrero.</p>
+    <p>El 5 de septiembre de 1938, unos 60 jóvenes nacistas tomaron la <span class="highlight">Caja del Seguro Obrero</span> y la Universidad de Chile, esperando un golpe de Estado. Tras rendirse, fueron llevados al edificio del Seguro Obrero, donde fueron <span class="highlight">ejecutados sumariamente</span> por orden del general Humberto Arriagada. En total, <span class="highlight">59 jóvenes</span> fueron asesinados.</p>
+  </section>
+
+  <!-- Sección 3 -->
+  <section class="slide">
+    <h2>3. Consecuencias</h2>
+    <div class="img-container">
+      <img src="images/1.png" alt="Detenidos y consecuencias de la masacre">
+    </div>
+    <p class="caption">Detenidos y militantes tras los hechos de 1938.</p>
+    <p>La masacre conmocionó al país y desprestigió al gobierno de <span class="highlight">Arturo Alessandri</span>. Carlos Ibáñez retiró su candidatura, y los votos opositores se volcaron hacia el <span class="highlight">Frente Popular</span>, llevando a <span class="highlight">Pedro Aguirre Cerda</span> a la presidencia. El MNSCH se fracturó y nunca recuperó su fuerza política.</p>
+  </section>
+
+</body>
+</html>
